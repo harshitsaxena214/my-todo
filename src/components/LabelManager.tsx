@@ -37,11 +37,6 @@ export const LabelManager: React.FC<LabelManagerProps> = ({ labels, tasks }) => 
           );
         })}
       </div>
-
-      <button className="w-full mt-6 p-3 border-2 border-dashed border-gray-300 rounded-xl text-gray-500 hover:border-gray-400 hover:text-gray-600 transition-colors duration-200 flex items-center justify-center gap-2">
-        <span className="text-xl">+</span>
-        <span>New label</span>
-      </button>
     </div>
   );
 };

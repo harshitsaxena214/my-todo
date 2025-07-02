@@ -24,30 +24,7 @@ export interface Label {
 
 const Index = () => {
   const [tasks, setTasks] = useState<Task[]>([
-    {
-      id: '1',
-      title: 'Read for 30 minutes',
-      completed: false,
-      priority: 'medium',
-      label: 'Productivity',
-      createdAt: new Date().toISOString(),
-    },
-    {
-      id: '2',
-      title: 'Buy a shirt',
-      completed: false,
-      priority: 'low',
-      label: 'Shopping',
-      createdAt: new Date().toISOString(),
-    },
-    {
-      id: '3',
-      title: 'Reply to emails',
-      completed: false,
-      priority: 'high',
-      label: 'Work',
-      createdAt: new Date().toISOString(),
-    },
+    
   ]);
 
   const [labels] = useState<Label[]>([
